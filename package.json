@@ -1,0 +1,34 @@
+{
+  "name": "kip",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A homotopy type programming language with a web-based syntax tree editor.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehors/kip.git"
+  },
+  "author": "learningstud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sehors/kip/issues"
+  },
+  "homepage": "https://github.com/sehors/kip/tree/ts-mvp#readme",
+  "engines": {
+    "node": "20.9.0",
+    "npm": "10.2.4"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "npm": "10.2.4"
+  }
+}
